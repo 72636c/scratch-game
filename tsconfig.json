@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2023"],
+    "outDir": "lib",
+    "target": "ES2022"
+  },
+  "exclude": ["integration/**/*", "lib*/**/*", "template/**/*"],
+  "extends": "skuba/config/tsconfig.json"
+}
