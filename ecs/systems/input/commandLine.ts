@@ -55,6 +55,7 @@ export const createCommandLineInputSystem = () => {
 
       const [player] = players;
 
+      // TODO: Move blocking I/O out of the system.
       const rawCommand = await readline.question('> ');
       process.stdout.moveCursor(0, -1);
       process.stdout.clearLine(1);
